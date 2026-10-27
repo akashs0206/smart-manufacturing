@@ -1,0 +1,112 @@
+# =========================
+# Secrets & environment
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# =========================
+# Python (backend / ml)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+instance/
+
+# =========================
+# Machine learning artifacts
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+mlruns/
+wandb/
+
+# =========================
+# Dataset (uncomment if the CSV is large, over 50 MB)
+# =========================
+# dataset/*.csv
+
+# =========================
+# Node / React (frontend)
+# =========================
+node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+coverage/
+
+# =========================
+# Blockchain (Hardhat / Truffle / Foundry)
+# =========================
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/build/
+blockchain/typechain-types/
+blockchain/out/
+blockchain/broadcast/
+blockchain/coverage/
+blockchain/coverage.json
+blockchain/deployments/localhost/
+ganache-db/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Databases (local)
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.sublime-workspace
